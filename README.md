@@ -4,7 +4,7 @@ In this project we are going to do one end to end azure data engineer project an
 
 <div align="center">
   <a href="#">
-    <img src="https://github.com/zBalachandar/Sales-Analysis-End-to-End-Pyspark-Real-Time-prod-project2./blob/2f3b674f3e74025cfb6873a19398a684ca4e7340/ASSETS/Sales%20Analysis%20Data%20bricks%2001.png" alt="Banner" width="720">
+    <img src="https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/da8998de415364b5918c51a26a09e675e5ddaf53/Assets/Sql%20Db%20table1data%20loaded%2B1.png" alt="Banner" width="720">
   </a>
 
   <div id="user-content-toc">
@@ -37,6 +37,8 @@ insert into orders(order_id,FirstName,LastName) values(1,'manish','tiwari')
 insert into orders(order_id,FirstName,LastName) values(2,'rani','sharma')
 insert into orders(order_id,FirstName,LastName) values(3,'yuvraj','verma')
 
+![Incremental-data-load](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/da8998de415364b5918c51a26a09e675e5ddaf53/Assets/IMG_20240725_122406.jpg)
+
 
 CREATE TABLE orders_final
 (
@@ -45,10 +47,12 @@ CREATE TABLE orders_final
  inserttime datetime default getdate()
 )
  
-![image]()
+
 
 ### Business Requirement.
-![image]()
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/da8998de415364b5918c51a26a09e675e5ddaf53/Assets/4.jpg)
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/da8998de415364b5918c51a26a09e675e5ddaf53/Assets/3.jpg)
+
 
 ### Project steps to follow: 
 
