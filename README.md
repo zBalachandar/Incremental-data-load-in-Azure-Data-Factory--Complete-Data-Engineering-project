@@ -74,12 +74,38 @@ In this project we are going to do one end to end azure data engineer project an
 
 ### ⚙️ Data Loading
  Data processing and Loading using DataFactory and Azure SQL Server Environment.
-### DataBricks Notebook.
+ 1.Prepare the source data store.
+![image]()
+![image]()
+![image]()
+2.Create a data factory.
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/Data%20pipeline%20creation1.png)
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/pipeline%20phase%202.png)
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/pipeline%20phase%202.png)
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/pipeline%20phase%203e.png)
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/Pipeline%20run%20successfully.png)
+3.Create linked services.
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/df_ss.png)
+![image](![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/Sql%20Db%20source%20created.png))
+4.Create source, sink, and change tracking datasets.
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/pipeline%20run%202nd%20time.png)
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/df_ss.png)
+5.Create, run, and monitor the full copy pipeline.
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/pipeline%20run%202nd%20success%20.png)
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/pipeline%20success%200.png)
 
+6.Add or update data in the source table.
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/Sql%20Db%20query%20created1.png)
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/df_query%202.png)
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/Sql%20Db%20table2data%20loaded.png)
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/Sql%20Db%20table1data%20loaded.png)
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/Sql%20Db%20table1data%20loaded.png)
 ![image]()
-![image]()
-![image]()
-
+7.Create, run, and monitor the incremental copy pipeline.
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/Overall%20PIPELINE%20data%20success4.png)
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/Preview%20data%20max.png)
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/SQL%20addon%20record%20last.png)
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/Overall%20data%20in%20sql%20server%20success.png)
 ### 🛠️ Technologies Used
 
 - **Data processing**: Azure Data Factory
