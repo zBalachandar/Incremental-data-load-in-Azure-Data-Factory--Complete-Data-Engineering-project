@@ -18,11 +18,12 @@ In this project we are going to do one end to end azure data engineer project an
 
 <a name="introduction"></a>
 ## 🔬 Project Overview
- I will go through the process for the incremental load of data from an on-premises SQL Server to Azure SQL database. Once the full data set is loaded from a source to a sink, there may be some addition or modification of the source data. In that case, it is not always possible, or recommended, to refresh all data again from source to sink. Incremental load methods help to reflect the changes in the source to the sink every time a data modification is made on the source.
+In this project we are going to do one end to end azure data engineer project and understand how to perform incremental data load in azure data factory.
+I will go through the process for the incremental load of data from an on-premises SQL Server to Azure SQL database. Once the full data set is loaded from a source to a sink, there may be some addition or modification of the source data. In that case, it is not always possible, or recommended, to refresh all data again from source to sink. Incremental load methods help to reflect the changes in the source to the sink every time a data modification is made on the source.
 
 
 ### 💾 Dataset
-Dataset script: script
+Dataset script: 
 
 CREATE TABLE orders
 (
@@ -44,10 +45,10 @@ CREATE TABLE orders_final
  inserttime datetime default getdate()
 )
  
-![image](https://github.com/zBalachandar/Sales-Analysis-End-to-End-Pyspark-Real-Time-prod-project2./blob/2f3b674f3e74025cfb6873a19398a684ca4e7340/ASSETS/Datasets.jpg)
+![image]()
 
 ### Business Requirement.
-![image](https://github.com/zBalachandar/Sales-Analysis-End-to-End-Pyspark-Real-Time-prod-project2./blob/01b38e806b101e00ece9f05c324fbdb40c388c78/ASSETS/Business%20Requirements.jpg)
+![image]()
 
 ### Project steps to follow: 
 
@@ -74,15 +75,6 @@ In this project we are going to do one end to end azure data engineer project an
 ![image]()
 ![image]()
 ![image]()
-
-<a name="data-reporting"></a>
-### 📊 Data Reporting KPI's
-I created a presentation dashboard and insightful data visualizations.
-[Data Visualization presentation Live-link](https://community.cloud.databricks.com/?o=4339393889004771#notebook/2305521296724873/dashboard/102889012920708/present)
-![image](https://github.com/zBalachandar/Sales-Analysis-End-to-End-Pyspark-Real-Time-prod-project2./blob/2f3b674f3e74025cfb6873a19398a684ca4e7340/ASSETS/Sales%20Analysis%20Data%20bricks%2001.png)
-![image](https://github.com/zBalachandar/Sales-Analysis-End-to-End-Pyspark-Real-Time-prod-project2./blob/2f3b674f3e74025cfb6873a19398a684ca4e7340/ASSETS/Sales%20Analysis%20Data%20bricks%2002.png)
-![image](https://github.com/zBalachandar/Sales-Analysis-End-to-End-Pyspark-Real-Time-prod-project2./blob/2f3b674f3e74025cfb6873a19398a684ca4e7340/ASSETS/Sales%20Analysis%20Data%20bricks%2003%20dashboard.png)
-![image](https://github.com/zBalachandar/Sales-Analysis-End-to-End-Pyspark-Real-Time-prod-project2./blob/2f3b674f3e74025cfb6873a19398a684ca4e7340/ASSETS/Sales%20Analysis%20Data%20bricks%2004%20dashboard.png)
 
 ### 🛠️ Technologies Used
 
