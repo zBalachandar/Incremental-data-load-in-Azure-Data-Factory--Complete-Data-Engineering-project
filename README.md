@@ -75,9 +75,9 @@ In this project we are going to do one end to end azure data engineer project an
 ### ⚙️ Data Loading
  Data processing and Loading using DataFactory and Azure SQL Server Environment.
  1.Prepare the source data store.
-![image]()
-![image]()
-![image]()
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/cbcdcca7ac58e83f580aafdbc9497694f2eed551/Assets/Sql%20Db%20source%20created.png)
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/cbcdcca7ac58e83f580aafdbc9497694f2eed551/Assets/Sql%20Db%20query%20created1.png)
+![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/cbcdcca7ac58e83f580aafdbc9497694f2eed551/Assets/Sql%20Db%20table1data%20loaded.png)
 2.Create a data factory.
 ![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/Data%20pipeline%20creation1.png)
 ![image](https://github.com/zBalachandar/Incremental-data-load-in-Azure-Data-Factory--Complete-Data-Engineering-project/blob/3c3c015908c43c0ef068c9d8c3b864c0f1634aa9/Assets/pipeline%20phase%202.png)
